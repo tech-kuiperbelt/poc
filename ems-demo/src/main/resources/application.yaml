@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet.context-path: /rest
+spring:
+  application:
+    name: eden
+  main.allow-bean-definition-overriding: true
+  data.rest.basePath: /ems
+
+logging:
+  level:
+    org:
+      springframework:
+        transaction: trace
+        jdbc:
+          core:
+            JdbcTemplate: debug
+
+    org.hibernate:
+      SQL: debug
+      type.descriptor.sql.BasicBinder: TRACE
+
+    tech.kuiperbelt.*: debug

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>tech.kuiperbelt</groupId>
-	<artifactId>hello-jpa</artifactId>
+	<artifactId>mt-spring-data-rest-discriminator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hello-jpa</name>
 	<description>Demo project for Spring Boot</description>
