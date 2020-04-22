@@ -1,4 +1,4 @@
-# Demo Project 
+# Multiple tenant by Discriminator 
 
 for Partitioned (Discriminator) Data – the data for each tenant is partitioned by a discriminator value.
 
@@ -14,3 +14,6 @@ TO BE VERIFY
 - CUD operation (OK)
     - Why "put" did not process entity link while "patch" can do ? (put skip association link)
 - Hibernate Filter can work on join Query (OK)
+
+
+_[Go Back](../README.md)_
